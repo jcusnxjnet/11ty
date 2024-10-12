@@ -1,6 +1,6 @@
 ---
-title: home
+title: jcusnxj.net
 permalink: "/index.html"
 ---
 ### Hello
-My eleventy project.
+This is my eleventy project.
