@@ -29,14 +29,55 @@ img, picture {
     margin: auto;
   }
 
+a {
+    color: #5fb8fc;
+    text-decoration: none;
+  }
+  
+a:hover {
+    text-decoration: none;   
+    font-weight: bold;
+  }
+
 main {
     margin: 0 auto;  /* Creates extra space around an element. Shorthand for margin-top/right/bottom/left. 4 top/right/botom/left, 3 - top/right/botom, 2 - vertical/horizontal 1 - all */
-    min-height: 100vh; /* Sets the minimum height of an element. If the content is smaller than the minimum height, the minimum height will be applied. */
+    min-height: calc(100vh - 10rem); /* Sets the minimum height of an element. If the content is smaller than the minimum height, the minimum height will be applied. */
     max-width: 100rem; 
-    padding: 1.5rem 1.5rem;
+    padding: 0rem 2rem;
   }
   
 main ul {
     padding-left: 2rem;
   }
-  
+
+header {
+    display: flex; /* Displays an element as a block-level flex container */
+    align-items: center; /* Aligns the flex items vertically */
+    height: 5rem; /* Sets the height of an element. Does not include padding, borders, or margins. */
+    max-width: 100rem; 
+    margin: 0 auto; /* Creates extra space around an element. Shorthand for margin-top/right/bottom/left. 4 top/right/botom/left, 3 - top/right/botom, 2 - vertical/horizontal 1 - all */
+    /* width: 100%;  Sets the width of an element. Does not include padding, borders, or margins. */
+    padding: 1rem 2rem;
+    background-color: #14191f;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;  
+    justify-content: flex-start;
+  }
+
+footer {
+    display: flex; /* Displays an element as a block-level flex container */
+    justify-content: center; /* Aligns the flex items horizontally */
+    align-items: center; /* Aligns the flex items vertically */
+    height: 5rem; /* Sets the height of an element. Does not include padding, borders, or margins. */
+    width: 100%; /* Sets the width of an element. Does not include padding, borders, or margins. */
+    padding: 1rem 2rem;
+    color: grey;
+    max-width: 100rem; 
+    margin: 0 auto;
+  }
+
+.sitename {
+    margin-left: auto;
+    font-weight: bold;
+  }

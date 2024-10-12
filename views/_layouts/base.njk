@@ -8,8 +8,14 @@
     <title>{{ title }}</title> 
   </head>
   <body>
+    <header>
+      <div class="sitename"><a href="/">jcusnxj.net</a></div>
+    </header>
     <main>
       {{ content | safe }}    
     </main>
+    <footer>
+      {% include "partials/_footer.njk" %}
+    </footer>
   </body>
 </html>
