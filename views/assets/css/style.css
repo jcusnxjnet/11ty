@@ -65,6 +65,16 @@ header {
     justify-content: flex-end;
   }
 
+header > a {
+  display: block;
+  padding-right: 1rem;
+  font-weight: normal;
+}
+
+header > h2 {
+  margin-left: auto;
+}
+
 footer {
     display: flex; /* Displays an element as a block-level flex container */
     justify-content: center; /* Aligns the flex items horizontally */

@@ -1,5 +1,5 @@
 ---
-title: Hello
+title: Home
 permalink: "/index.html"
 eleventyNavigation:
     key: Home
