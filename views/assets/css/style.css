@@ -77,3 +77,15 @@ footer {
     margin: 0 auto;
   }
 
+  /* BREADCRUMB NAVIGATION */
+  nav[aria-label=breadcrumb] ol {
+    margin: 0;
+    padding: 0;
+  }
+  nav[aria-label=breadcrumb] li {
+    display: inline;
+  }
+  nav[aria-label=breadcrumb] li:not(:last-child)::after {
+    content: ">"
+  }
+

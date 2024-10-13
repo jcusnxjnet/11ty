@@ -1,0 +1,11 @@
+{% set navPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
+
+{% for crumb in navPages %}
+	{% if loop.first %}<nav aria-label="breadcrumb"><ol>{% endif %}
+
+		<li>
+			<a href="{{ crumb.url }}">{{ crumb.title }}</a>
+		</li>
+
+	{% if loop.last %}<li>{{ title }}</li></ol></nav>{% endif %}
+{% endfor %}

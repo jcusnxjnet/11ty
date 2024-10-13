@@ -17,6 +17,7 @@
       <article>
       <h2>{{ title }}</h2>
       <hr>
+      {% include "partials/breadcrumb.njk" %}
       {{ content | safe }} 
       </article>
       {% endblock %}   
