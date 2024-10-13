@@ -12,7 +12,13 @@
       <h3><div class="sitename"><a href="/">jcusnxj.net</a></div></h3>
     </header>
     <main>
-      {{ content | safe }}    
+      {% block content %}
+      <article>
+      <h3>{{ title }}</h3>
+      <hr>
+      {{ content | safe }} 
+      </article>
+      {% endblock %}   
     </main>
     <footer>
       {% include "partials/_footer.njk" %}

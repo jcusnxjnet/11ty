@@ -1,6 +1,5 @@
 ---
-title: jcusnxj.net
+title: Hello
 permalink: "/index.html"
 ---
-### Hello
-This is my personal project in [11ty](https://www.11ty.dev). 
+This is my personal project in [eleventy](/note/eleventy). 
