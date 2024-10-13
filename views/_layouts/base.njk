@@ -5,23 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/assets/css/style.css" rel="stylesheet"> 
+    <link href="/assets/css/code.css" rel="stylesheet">
     <title>{{ title }}</title> 
   </head>
   <body>
     <header>
-      <h3><div class="sitename"><a href="/">jcusnxj.net</a></div></h3>
+      <h2><a href="/">jcusnxj.net</a></h2>
     </header>
     <main>
       {% block content %}
       <article>
-      <h3>{{ title }}</h3>
+      <h2>{{ title }}</h2>
       <hr>
       {{ content | safe }} 
       </article>
       {% endblock %}   
     </main>
     <footer>
-      {% include "partials/_footer.njk" %}
+      {% include "partials/footer.njk" %}
     </footer>
   </body>
 </html>

@@ -1,4 +1,5 @@
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
+import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 
 export default function (eleventyConfig) {
 
@@ -7,9 +8,9 @@ export default function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("views/assets/img");
     eleventyConfig.addPassthroughCopy("views/assets/js");
 
-    //Plugins
-    //Eleventy Navigation
-    eleventyConfig.addPlugin(eleventyNavigationPlugin);
+    //plugins
+    eleventyConfig.addPlugin(eleventyNavigationPlugin); //Eleventy Navigation
+    eleventyConfig.addPlugin(syntaxHighlight); //Syntax Highlight
 };
 
 export const config = {
