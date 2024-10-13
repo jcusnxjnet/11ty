@@ -86,6 +86,6 @@ footer {
     display: inline;
   }
   nav[aria-label=breadcrumb] li:not(:last-child)::after {
-    content: ">"
+    content: " >"
   }
 

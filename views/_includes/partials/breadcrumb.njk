@@ -3,9 +3,11 @@
 {% for crumb in navPages %}
 	{% if loop.first %}<nav aria-label="breadcrumb"><ol>{% endif %}
 
-		<li>
-			<a href="{{ crumb.url }}">{{ crumb.title }}</a>
-		</li>
-
-	{% if loop.last %}<li>{{ title }}</li></ol></nav>{% endif %}
+        {% if loop.last %}
+            <li><a href="{{ crumb.url }}">{{ crumb.title }}</a></li>
+            <li>{{ title }}</li>
+        {% else %}
+		    <li><a href="{{ crumb.url }}">{{ crumb.title }}</a></li>
+        {% endif %}
+    {% if loop.last %}</ol></nav>{% endif %}
 {% endfor %}
