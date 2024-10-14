@@ -1,8 +1,8 @@
 ---
-title: Initial setup
+title: Initial Setup
 templateEngineOverride: md
 eleventyNavigation:
-    key: Initial setup
+    key: Initial Setup
     parent: Eleventy
 ---
 ### 1. Create package.json

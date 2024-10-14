@@ -1,5 +1,5 @@
 ---
-title: Initial setup
+title: Eleventy Navigation
 templateEngineOverride: md
 eleventyNavigation:
     key: Eleventy Navigation
