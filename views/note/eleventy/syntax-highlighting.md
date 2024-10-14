@@ -18,6 +18,7 @@ export default function (eleventyConfig) {
 };
 ```
 ### 3. CSS stylesheet
+_Note: Repository with [CSS files](https://github.com/PrismJS/prism-themes)._
 ```html
 <!DOCTYPE html>
 <html lang="{{ lang }}">
@@ -31,7 +32,6 @@ export default function (eleventyConfig) {
   </body>
 </html>
 ```
-_Note: Repository with [CSS files](https://github.com/PrismJS/prism-themes)._
 
 ### 4. Template engine override
 ```yaml
@@ -41,5 +41,5 @@ templateEngineOverride: md
 ```
 
 ### 5. Usage (Markdown)
-Triple backtick ``` indicate start/end of the code. Language must be specified after first triple backtick.
+Triple backtick ``` indicate the start/end of the code. Language must be specified after first triple backtick.
 
