@@ -40,7 +40,7 @@ a:hover {
   }
 
 h3 {
-  padding-top: 1rem;
+  padding-top: 0rem;
 }
   main {
     margin: 0 auto;  /* Creates extra space around an element. Shorthand for margin-top/right/bottom/left. 4 top/right/botom/left, 3 - top/right/botom, 2 - vertical/horizontal 1 - all */

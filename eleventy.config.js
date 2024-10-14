@@ -1,5 +1,6 @@
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import { DateTime } from "luxon";
 
 export default function (eleventyConfig) {
 
@@ -11,6 +12,10 @@ export default function (eleventyConfig) {
     //plugins
     eleventyConfig.addPlugin(eleventyNavigationPlugin); //Eleventy Navigation
     eleventyConfig.addPlugin(syntaxHighlight); //Syntax Highlight
+
+    //shortcodes
+    // get the current year
+    eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`); //import DateTime from luxon
 };
 
 export const config = {
