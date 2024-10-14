@@ -4,7 +4,6 @@ permalink: "/index.html"
 eleventyNavigation:
     key: Home
 ---
-<br>
 {% set navPages = collections.note | eleventyNavigation("Home") %}
 <ul>
 {%- for entry in navPages %}

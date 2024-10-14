@@ -1,11 +1,10 @@
 ---
 title: Initial setup
+templateEngineOverride: md
 eleventyNavigation:
     key: Initial setup
     parent: Eleventy
 ---
-<br>
-
 ### 1. Create package.json
 ```html
 npm init -y

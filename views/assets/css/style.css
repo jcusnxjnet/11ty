@@ -90,7 +90,8 @@ footer {
   /* BREADCRUMB NAVIGATION */
   nav[aria-label=breadcrumb] ol {
     margin: 0;
-    padding: 0;
+    padding-bottom: 2rem;
+    font-size: smaller;
   }
   nav[aria-label=breadcrumb] li {
     display: inline;
