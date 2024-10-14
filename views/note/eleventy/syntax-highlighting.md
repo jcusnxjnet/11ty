@@ -5,11 +5,11 @@ eleventyNavigation:
     key: Syntax Highlighting
     parent: Eleventy
 ---
-### 1. Installation
+#### Installation
 ```html
 npm install @11ty/eleventy-plugin-syntaxhighlight
 ```
-### 2. Configuration (ESM)
+#### Configuration (ESM)
 ```js
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 
@@ -17,7 +17,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPlugin(syntaxHighlight);
 };
 ```
-### 3. CSS stylesheet
+#### CSS stylesheet
 _Note: Repository with [CSS files](https://github.com/PrismJS/prism-themes)._
 ```html
 <!DOCTYPE html>
@@ -33,13 +33,13 @@ _Note: Repository with [CSS files](https://github.com/PrismJS/prism-themes)._
 </html>
 ```
 
-### 4. Template engine override
+#### Template engine override
 ```yaml
 ---
 templateEngineOverride: md
 ---
 ```
 
-### 5. Usage (Markdown)
+#### Usage (Markdown)
 Triple backtick ``` indicate the start/end of the code. Language must be specified after first triple backtick.
 

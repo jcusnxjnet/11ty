@@ -4,6 +4,7 @@ eleventyNavigation:
     key: Eleventy
     parent: Home
 ---
+#### Content
 {% set navPages = collections.note | eleventyNavigation("Eleventy") %}
 <ul>
 {%- for entry in navPages %}

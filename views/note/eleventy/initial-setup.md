@@ -5,41 +5,41 @@ eleventyNavigation:
     key: Initial Setup
     parent: Eleventy
 ---
-### 1. Create package.json
+#### Create package.json
 ```html
 npm init -y
 ```
 
-### 2. Use ESM and not commonJS
+#### Use ESM and not commonJS
 ```js
 npm pkg set type="module" // Modifies package.json
 ```
 
-### 3. Eleventy installation
+#### Eleventy installation
 ```js
 npm install @11ty/eleventy
 ```
 
-### 4. Create index.md
+#### Create index.md
 ```js
 echo '# My Eleventy Project' > index.md
 ```
 
-### 5. Create .gitignore
+#### Create .gitignore
 ```js
 dist          // output directory defined in eleventy.config.js
 node_modules
 .DS_Store
 ```
 
-### 6. Create eleventy.config.js
+#### Create eleventy.config.js
 ```js
 export default function(eleventyConfig) {
 	// Configure Eleventy
 };
 ```
 
-### 7. Modify scripts in package.json
+#### Modify scripts in package.json
 ```json
 "scripts": {
      "start": "eleventy --serve",
@@ -47,7 +47,7 @@ export default function(eleventyConfig) {
 }
 ```
 
-### 8. Define default directories in eleventy.config.js
+#### Define default directories in eleventy.config.js
 ```js
 export default function(eleventyConfig) {
 	// Configure Eleventy
@@ -62,7 +62,7 @@ export const config = {
   };
 ```
 
-### 9. Define default template engine in eleventy.config.js
+#### Define default template engine in eleventy.config.js
 ```js
 export default function(eleventyConfig) {
 	// Configure Eleventy
@@ -74,7 +74,7 @@ export const config = {
 };
 ```
 
-### 10. Create directories
+#### Create directories
 ```js
 └── views                   // default override (defined in configuration)
 │    ├── _data              // default
@@ -98,7 +98,7 @@ export const config = {
 └── package-lock.json       // stays in root
 ```
 
-### 11. addPassthroughCopy in eleventy.config.js
+#### addPassthroughCopy in eleventy.config.js
 ```js
 export default function(eleventyConfig) {
 
@@ -109,7 +109,7 @@ export default function(eleventyConfig) {
 };
 ```
 
-### 12. Create basic layout base.njk
+#### Create basic layout base.njk
 ```html
 <!DOCTYPE html>
 <html lang="cs">
@@ -127,21 +127,21 @@ export default function(eleventyConfig) {
 </html>
 ```
 
-### 13. Define default Fron Matter Data, i.e. create folder specific json files
+#### Define default Fron Matter Data, i.e. create folder specific json files
 ```json
 {
     "layout": "base" 
   }
 ```
 
-### 14. Create and reference CSS stylesheet
+#### Create and reference CSS stylesheet
 ```html
 <head>
    <link href="/assets/css/style.css" rel="stylesheet"> 
 </head>
 ```
 
-### 15. Define permalink for index.md (if moved to a subfolder)
+#### Define permalink for index.md (if moved to a subfolder)
 ```yaml
 ---
 permalink: "/index.html"

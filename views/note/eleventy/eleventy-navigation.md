@@ -5,11 +5,11 @@ eleventyNavigation:
     key: Eleventy Navigation
     parent: Eleventy
 ---
-### 1. Installation
+#### Installation
 ```js
 npm install @11ty/eleventy-navigation
 ```
-### 2. Configuration (ESM)
+#### Configuration (ESM)
 ```js
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 
@@ -17,7 +17,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPlugin(eleventyNavigationPlugin);
 };
 ```
-### 3. Front Matter Data
+#### Front Matter Data
 ```yaml
 ---
 eleventyNavigation:
@@ -30,7 +30,7 @@ eleventyNavigation:
 permalink: false           # to prevent a file creation in Eleventy output site
 ---
 ```
-### 4. Usage - navigation (Nunjucks)
+#### Usage - navigation (Nunjucks)
 ```js
 // returns all pages across all collections
 {% set navPages = collections.all | eleventyNavigation %}
@@ -39,7 +39,7 @@ permalink: false           # to prevent a file creation in Eleventy output site
 {% set navPages = collections.planets | eleventyNavigation("Mars") %}
 ```
 
-### 5. Usage - breadcrumb trail (Nunjucks)
+#### Usage - breadcrumb trail (Nunjucks)
 ```js
 // returns breadcrumb trail for specific navigation key (Mars)
 {% set navPages = collections.all | eleventyNavigationBreadcrumb("Mars") %}

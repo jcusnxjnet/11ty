@@ -5,7 +5,7 @@ eleventyNavigation:
     key: Breadcrumb Navigation
     parent: Eleventy
 ---
-### 1. Partials breadcrumb.njk
+#### Partials breadcrumb.njk
 ```js
 {% set navPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key, { includeSelf: true }) %}
 {% for crumb in navPages %}
@@ -18,7 +18,7 @@ eleventyNavigation:
 	{% if loop.last %}</ol></nav>{% endif %}
 {% endfor %}
 ```
-### 2. CSS stylesheet
+#### CSS stylesheet
 ```css
 nav[aria-label=breadcrumb] ol {
     margin: 0;

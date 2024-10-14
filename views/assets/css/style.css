@@ -39,9 +39,10 @@ a:hover {
     font-weight: bold;
   }
 
-h3 {
-  padding-top: 0rem;
-}
+h4 {
+  padding-top: 2rem;
+  }
+  
   main {
     margin: 0 auto;  /* Creates extra space around an element. Shorthand for margin-top/right/bottom/left. 4 top/right/botom/left, 3 - top/right/botom, 2 - vertical/horizontal 1 - all */
     min-height: calc(100vh - 10rem); /* Sets the minimum height of an element. If the content is smaller than the minimum height, the minimum height will be applied. */
@@ -50,8 +51,12 @@ h3 {
   }
   
 main ul {
-    padding-left: 2rem;
+    padding-left: 4rem;
   }
+
+main p {
+    padding: 0 2rem;
+}
 
 header {
     display: flex; /* Displays an element as a block-level flex container */
@@ -93,7 +98,6 @@ footer {
   /* BREADCRUMB NAVIGATION */
   nav[aria-label=breadcrumb] ol {
     margin: 0;
-    padding-bottom: 2rem;
     font-size: smaller;
   }
   nav[aria-label=breadcrumb] li {
