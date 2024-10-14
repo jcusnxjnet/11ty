@@ -1,8 +1,8 @@
 ---
-title: Home
+title: Notes
 permalink: "/index.html"
 eleventyNavigation:
-    key: Home
+    key: Notes
 ---
 This is my [eleventy](/note/eleventy) project. 
 
