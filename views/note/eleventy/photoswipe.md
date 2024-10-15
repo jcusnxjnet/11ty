@@ -5,6 +5,8 @@ eleventyNavigation:
     key: PhotoSwipe
     parent: Eleventy
 ---
+<br>
+
 #### Installation
 ```html
 npm install photoswipe

@@ -5,6 +5,8 @@ eleventyNavigation:
     key: Eleventy Navigation
     parent: Eleventy
 ---
+<br>
+
 #### Installation
 ```js
 npm install @11ty/eleventy-navigation

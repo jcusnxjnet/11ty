@@ -5,6 +5,8 @@ eleventyNavigation:
     key: Syntax Highlighting
     parent: Eleventy
 ---
+<br>
+
 #### Installation
 ```html
 npm install @11ty/eleventy-plugin-syntaxhighlight

@@ -40,8 +40,9 @@ a:hover {
   }
 
 h4 {
-  padding-top: 2rem;
   font-size: 1.9rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
   }
   
   main {
@@ -53,10 +54,13 @@ h4 {
   
 main ul {
     padding-left: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
 main p {
-    padding: 0 2rem;
+    padding: 1rem 2rem;
+    
 }
 
 header {

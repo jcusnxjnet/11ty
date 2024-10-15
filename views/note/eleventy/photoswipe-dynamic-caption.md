@@ -5,6 +5,8 @@ eleventyNavigation:
     key: PhotoSwipe Dynamic Caption
     parent: Eleventy
 ---
+<br>
+
 #### Installation
 ```html
 npm i photoswipe-dynamic-caption-plugin --save

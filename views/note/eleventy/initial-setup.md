@@ -5,6 +5,8 @@ eleventyNavigation:
     key: Initial Setup
     parent: Eleventy
 ---
+<br>
+
 #### Create package.json
 ```html
 npm init -y

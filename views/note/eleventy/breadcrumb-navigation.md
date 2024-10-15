@@ -5,6 +5,8 @@ eleventyNavigation:
     key: Breadcrumb Navigation
     parent: Eleventy
 ---
+<br>
+
 #### Partials breadcrumb.njk
 ```js
 {% set navPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key, { includeSelf: true }) %}
