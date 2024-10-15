@@ -2,10 +2,12 @@
 {% for crumb in navPages %}
 	{% if loop.first %}<nav aria-label="breadcrumb"><ol>{% endif %}
 
-			{% if page.url == crumb.url %}<li>{{ crumb.title }}</li>
-            {% else %}<li><a href="{{ crumb.url }}">{{ crumb.title }}</a></li>
+			{% if page.url == '/' %}<li>Fuck it, dude</li>
+			{% else %}
+            	{% if page.url == crumb.url %}<li>{{ crumb.title }}</li>
+				{% else %}<li><a href="{{ crumb.url }}">{{ crumb.title }}</a></li>
+				{% endif %}
             {% endif %}
 
 	{% if loop.last %}</ol></nav>{% endif %}
 {% endfor %}
-

@@ -11,9 +11,7 @@
     <title>{{ title }}</title> 
   </head>
   <body>
-    <header>
-      <h2><a href="/">jcusnxj</a></h2>
-    </header>
+    <!-- {% include "partials/header.njk" %} -->
     <main>
       {% block content %}
       <article>
@@ -24,9 +22,9 @@
       </article>
       {% endblock %}   
     </main>
-    <footer>
+    
       {% include "partials/footer.njk" %}
-    </footer>
+    
   <script type="module" src="/assets/js/index.js"></script>
   </body>
 </html>

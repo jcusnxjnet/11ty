@@ -1,5 +1,5 @@
 ---
-title: Digital Garden
+title: jcusnxj
 permalink: "/index.html"
 eleventyNavigation:
     key: Home
