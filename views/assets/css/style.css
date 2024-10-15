@@ -47,7 +47,6 @@ h4 {
   
 main {
     margin: 0 auto;  /* Creates extra space around an element. Shorthand for margin-top/right/bottom/left. 4 top/right/botom/left, 3 - top/right/botom, 2 - vertical/horizontal 1 - all */
-    margin-top: 4.5rem;
     min-height: calc(100vh - 10rem); /* Sets the minimum height of an element. If the content is smaller than the minimum height, the minimum height will be applied. */
     max-width: 100rem; 
     padding: 0rem 2rem;
@@ -60,7 +59,7 @@ main ul {
   }
 
 main p {
-    padding: 1rem 2rem;
+    padding: 1rem Orem;
     
 }
 
