@@ -4,7 +4,7 @@ templateEngineOverride: md
 eleventyNavigation:
     key: PhotoSwipe Dynamic Caption
     parent: Eleventy
-    order: 6
+    order: 7
 ---
 #### Installation
 ```html

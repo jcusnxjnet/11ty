@@ -4,7 +4,7 @@ templateEngineOverride: md
 eleventyNavigation:
     key: Eleventy Navigation
     parent: Eleventy
-    order: 2
+    order: 3
 ---
 #### Installation
 ```js

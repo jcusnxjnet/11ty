@@ -4,7 +4,7 @@ templateEngineOverride: md
 eleventyNavigation:
     key: Syntax Highlighting
     parent: Eleventy
-    order: 4
+    order: 5
 ---
 #### Installation
 ```html

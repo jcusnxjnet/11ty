@@ -1,6 +1,7 @@
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import { DateTime } from "luxon";
+import markdownIt from "markdown-it";
 
 export default function (eleventyConfig) {
 
@@ -12,6 +13,17 @@ export default function (eleventyConfig) {
     //plugins
     eleventyConfig.addPlugin(eleventyNavigationPlugin); //Eleventy Navigation
     eleventyConfig.addPlugin(syntaxHighlight); //Syntax Highlight
+
+    // mardown-it
+    const md = markdownIt({
+      html: true, // Enable HTML tags in Markdown
+      linkify: true, // Convert URLs to links automatically
+      typographer: true, // Enable smart quotes and other typography enhancements
+      breaks: true,
+    });
+  
+    // Set markdown-it as the markdown parser for Eleventy
+    eleventyConfig.setLibrary("md", md);
 
     //shortcodes
     // get the current year

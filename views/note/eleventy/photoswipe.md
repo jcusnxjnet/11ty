@@ -4,7 +4,7 @@ templateEngineOverride: md
 eleventyNavigation:
     key: PhotoSwipe
     parent: Eleventy
-    order: 5
+    order: 6
 ---
 #### Installation
 ```html

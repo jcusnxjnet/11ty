@@ -113,3 +113,30 @@ footer {
     content: " >"
   }
 
+  /* 2-COLUMN LAYOUT USED INSIDE NOTE */
+.double {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.left {
+ flex: 50%;
+ align-self: center;
+ text-align: center;
+ padding: 3rem;
+ 
+}
+
+.right {
+ flex: 50%;
+}
+
+.right strong {
+  color: grey;
+} 
+
+.left strong {
+  color: grey;
+} 
+

@@ -4,7 +4,7 @@ templateEngineOverride: md
 eleventyNavigation:
     key: Breadcrumb Navigation
     parent: Eleventy
-    order: 3
+    order: 4
 ---
 #### Partials breadcrumb.njk
 ```js
