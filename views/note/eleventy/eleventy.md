@@ -3,7 +3,7 @@ title: Eleventy
 eleventyNavigation:
     key: Eleventy
     parent: Home
-    order: 3
+    order: 4
 ---
 {% set navPages = collections.note | eleventyNavigation("Eleventy") %}
 <ul>

@@ -3,7 +3,7 @@ title: Apollo
 eleventyNavigation:
     key: Apollo
     parent: Home
-    order: 1
+    order: 2
 ---
 
 <h4>Apollo 11</h4>

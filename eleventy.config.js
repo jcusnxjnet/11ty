@@ -28,6 +28,7 @@ export default function (eleventyConfig) {
     //shortcodes
     // get the current year
     eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`); //import DateTime from luxon
+
 };
 
 export const config = {
