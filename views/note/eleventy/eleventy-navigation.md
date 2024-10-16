@@ -4,9 +4,8 @@ templateEngineOverride: md
 eleventyNavigation:
     key: Eleventy Navigation
     parent: Eleventy
+    order: 2
 ---
-<br>
-
 #### Installation
 ```js
 npm install @11ty/eleventy-navigation

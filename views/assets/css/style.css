@@ -59,8 +59,8 @@ main ul {
   }
 
 main p {
-    padding: 1rem Orem;
-    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 header {
@@ -104,6 +104,7 @@ footer {
   nav[aria-label=breadcrumb] ol {
     margin: 0;
     font-size: smaller;
+    padding-bottom: 1rem;
   }
   nav[aria-label=breadcrumb] li {
     display: inline;

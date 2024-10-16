@@ -4,9 +4,8 @@ templateEngineOverride: md
 eleventyNavigation:
     key: Initial Setup
     parent: Eleventy
+    order: 1
 ---
-<br>
-
 #### Create package.json
 ```html
 npm init -y

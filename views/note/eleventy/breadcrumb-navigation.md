@@ -4,9 +4,8 @@ templateEngineOverride: md
 eleventyNavigation:
     key: Breadcrumb Navigation
     parent: Eleventy
+    order: 3
 ---
-<br>
-
 #### Partials breadcrumb.njk
 ```js
 {% set navPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key, { includeSelf: true }) %}

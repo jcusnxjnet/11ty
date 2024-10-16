@@ -4,9 +4,8 @@ templateEngineOverride: md
 eleventyNavigation:
     key: Syntax Highlighting
     parent: Eleventy
+    order: 4
 ---
-<br>
-
 #### Installation
 ```html
 npm install @11ty/eleventy-plugin-syntaxhighlight

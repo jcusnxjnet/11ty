@@ -4,9 +4,8 @@ templateEngineOverride: md
 eleventyNavigation:
     key: PhotoSwipe Dynamic Caption
     parent: Eleventy
+    order: 6
 ---
-<br>
-
 #### Installation
 ```html
 npm i photoswipe-dynamic-caption-plugin --save
