@@ -140,3 +140,16 @@ footer {
   color: grey;
 } 
 
+/* RESPONSIVE LAYOUT */
+@media (max-width: 800px) {
+  
+  .double {
+    flex-direction: column;
+  }
+
+  .right {
+    text-align: center;
+   }
+
+}
+

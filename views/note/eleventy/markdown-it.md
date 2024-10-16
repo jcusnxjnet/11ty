@@ -27,5 +27,5 @@ export default function(eleventyConfig) {
 }
 ```
 
-#### Links
+#### Sources
 - [Markdown-it documentation](https://github.com/markdown-it/markdown-it)
