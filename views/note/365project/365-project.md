@@ -1,7 +1,7 @@
 ---
-title: 52 Frames
+title: 365 Project
 eleventyNavigation:
-    key: 52 Frames
+    key: 365 Project
     parent: Home
     order: 1
 ---
