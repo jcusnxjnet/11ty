@@ -159,3 +159,21 @@ footer {
 
 }
 
+/* PHOTO GALLERY */
+.photoContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  line-height: 0;
+}
+
+.photoContainer img {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.photoContainer p {
+  padding: 0;
+}
+
