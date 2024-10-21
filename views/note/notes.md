@@ -1,5 +1,5 @@
 ---
-title: jcusnxj
+title: Welcome
 permalink: "/index.html"
 eleventyNavigation:
     key: Home
