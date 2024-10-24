@@ -48,6 +48,14 @@ eleventyNavigation:
     <span class="pswp-caption-content"><b>Day 005</b><br>ƒ/11 1/60s 85mm ISO 400</span>
   </a>
 
+   <a href="/assets/img/365project/day_006.jpg" 
+    data-pswp-width="3000" 
+    data-pswp-height="2000" 
+    target="_blank">
+    <img src="/assets/img/365project/thumbnails/day_006.jpg" alt="" />
+    <span class="pswp-caption-content"><b>Day 006</b><br>ƒ/4 1/320s 105mm ISO 100</span>
+  </a>
+
 
 </div>
 </div>
